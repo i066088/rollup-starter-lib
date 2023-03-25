@@ -10,3 +10,5 @@ export default function howLongUntilLunch(hours, minutes) {
 	var millisecondsUntilLunchTime = millisecondsUntil(lunchtime(hours, minutes));
 	return ms(millisecondsUntilLunchTime, { long: true });
 }
+console.log("howLongUntilLunch is: " + howLongUntilLunch());
+;
